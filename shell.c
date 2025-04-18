@@ -12,6 +12,7 @@ int main(void)
 	char **args;
 	pid_t pid;
 	int status;
+    extern char **environ;
 
 	while (1)
 	{
